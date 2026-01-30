@@ -50,19 +50,25 @@ nav{
 } 
 
 #s2{
-    height: 100vh;
-    padding-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 2px;
+    gap: 20px;
+    flex-wrap: row;
+    padding: 50px; 
    
 }
 
 .card{
-   height: 200px;
-   width: 300px;
+   height: 100px;
+   width: 100px;
    border: 2px solid #090909;
    background-color: #090909;
    color: #ffff;
